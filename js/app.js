@@ -1,17 +1,24 @@
-$(document).foundation();
+//$(document).foundation();
+
+
 var canvas = document.getElementById("canvas");
 var avocado = document.getElementById("avocado");
-var y = window.pageYOffset;
+
 
 
 window.onscroll=function(){
+var y = window.pageYOffset;
 console.log(y);
+
 
 /*avocado*/
 avocado.style.top=200 + y * 1.1 + "px";
  if (y > 2000)
-{avocado.src ="http://www.shockinglydelicious.com/wp-content/uploads/2011/03/Avocado-flesh-in-a-bowl.jpg";}
-if (y<2000){avocad.src="https://www.westelm.com/weimgs/ab/images/wcm/products/201729/0005/img28o.jpg";}
+{avocado.src ="http://www.shockinglydelicious.com/wp-content/uploads/2011/03/Avocado-flesh-in-a-bowl.jpg";
+	avocado.style.transform="translate(0,0)";
+
+}
+if (y<2000){avocado.src="http://www.pngpix.com/wp-content/uploads/2016/03/Avocado-PNG-Image-500x417.png";}
 
 
 

@@ -5,7 +5,6 @@
   width: 800px;
   margin: 0 auto;
   position: relative;
-
 }
 
 h1 {
@@ -16,7 +15,7 @@ h1 {
 }
 
 #prep {
-position: fixed;
+position: absolute;
 top: 410px;
 left: 50px;
 background: url(http://www.freeiconspng.com/img/25762) no-repeat;
@@ -29,7 +28,7 @@ z-index: 2000;
 #ingredients{
 height: 28px;
 width: 186px;
-position: fixed;
+position: absolute;
 top: 410px;
 right: 0px;
 z-index: 2000;
@@ -40,7 +39,7 @@ padding-top: 11px;
 }
 
 #bowl {
-position: fixed;
+position: absolute;
 top: 200px;
 left:400px;
 background: url(http://www.churchill1795.com/sites/default/files/imagecache/product_page_main_image/products/second/APR%20AP8%201_2.png) no-repeat center top;
@@ -52,6 +51,11 @@ z-index: 11;
 
 /*avocado*/
 #avocado {
-  width: 50px
-  height: 50px;
+  border: 2px solid red;
+  position: absolute;
+  top: 200px;
+  height: 200px;
+  width: 200px;
+  transform: translate(-200px, 0);
+  transition: transform 2s;
 }
