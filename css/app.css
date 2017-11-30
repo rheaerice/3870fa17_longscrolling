@@ -20,9 +20,9 @@ top: 410px;
 left: 50px;
 background: url(http://www.freeiconspng.com/img/25762) no-repeat;
 height: 79px;
-width: 100px;
+width: 150px;
 padding: 20px 10px 14px 18px;
-text-align: center;
+text-align:left;
 z-index: 2000;
 }
 #ingredients{
@@ -52,7 +52,7 @@ z-index: 11;
 #avocado {
   border: 2px solid red;
   position: absolute;
-  top: 1000px;
+  top: 700px;
   height: 200px;
   width: 200px;
   transform: translate(-200px, 0);

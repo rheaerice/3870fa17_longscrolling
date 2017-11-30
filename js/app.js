@@ -15,21 +15,21 @@ var y = window.pageYOffset;
 console.log(y);
 
 /*bowl*/
-bowl.style.top=200 + y * 1.1 + "px";
+bowl.style.top=200 + y + "px";
 
 
  /*side bars*/
- prep.style.top=200 + y * 1.1 + "px";
- ingredients.style.top=200 + y * 1.1 + "px";
+ prep.style.top=200 + y + "px";
+ ingredients.style.top=200 + y + "px";
 
 /*avocado*/
-avocado.style.top=1000 + y * .7 + "px";
- if (y > 2000)
+avocado.style.top=700 + y * .7 + "px";
+ if (y > 1000)
 {avocado.src ="http://www.shockinglydelicious.com/wp-content/uploads/2011/03/Avocado-flesh-in-a-bowl.jpg";
 	avocado.style.transform="translate(0,0)";
 
 }
-if (y<2000){avocado.src="http://www.pngpix.com/wp-content/uploads/2016/03/Avocado-PNG-Image-500x417.png";}
+if (y<1000){avocado.src="http://www.pngpix.com/wp-content/uploads/2016/03/Avocado-PNG-Image-500x417.png";}
 
 
 
