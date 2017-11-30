@@ -14,13 +14,16 @@ window.onscroll=function(){
 var y = window.pageYOffset;
 console.log(y);
 
-/*bowl*/
+/*bowl- include the change of different images as new ingredients get added*/
 bowl.style.top=200 + y + "px";
-
-
+  if (y<1100)
+    {bowl.src ="http://www.churchill1795.com/sites/default/files/imagecache/product_page_main_image/products/second/APR%20AP8%201_2.png"}
+  if (y>1100)
+    {bowl.src ="http://www.carvasos.com/sites/default/files/avocado%20mash.png"}
  /*side bars*/
  prep.style.top=200 + y + "px";
  ingredients.style.top=200 + y + "px";
+
 
 /*avocado*/
 avocado.style.top=700 + y * .7 + "px";
