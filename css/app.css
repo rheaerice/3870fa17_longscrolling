@@ -67,7 +67,7 @@ color: #44B432;
 font-size: 20px;
 }
 
-/*#time {
+#time {
   font-family: 'Varela Round', sans-serif;
   color: #524C3E;
   font-size: 14px;
@@ -78,7 +78,7 @@ font-size: 20px;
   0% {opacity: 0;}
   50% {opacity: 0.5;}
   100% {opacity: none;}
-}*/
+}
 /*recipe right side list*/
 #ingredients{
 height: 28px;
