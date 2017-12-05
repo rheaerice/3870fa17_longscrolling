@@ -81,7 +81,8 @@ strong {
   font-family: 'Varela Round', sans-serif;
   font-size: 13px;
   height: 28px;
-  width: 190px;
+  width: 200px;
+  line-height: 1;
   padding-right: 10px;
   color: #524C3E;
   text-align: right;
@@ -96,7 +97,7 @@ strong {
   font-family: 'Varela Round', sans-serif;
   font-size: 13px;
   height: 28px;
-  width: 190px;
+  width: 200px;
   padding-right: 10px;
   color: #524C3E;
   text-align: right;
@@ -105,9 +106,103 @@ strong {
   animation-fill-mode: forwards;
   right: 0px;
   z-index: 10;
-  top: 90px;
+  top: 83px;
 }
-
+#zonespices {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 13px;
+  height: 28px;
+  width: 230px;
+  padding-right: 10px;
+  line-height: 1;
+  color: #524C3E;
+  text-align: right;
+  position: absolute;
+  animation: ingredientlist 4s paused;
+  animation-fill-mode: forwards;
+  right: 0px;
+  z-index: 10;
+  top: 110px;
+}
+#zoneonion {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 13px;
+  height: 28px;
+  width: 230px;
+  padding-right: 10px;
+  color: #524C3E;
+  text-align: right;
+  position: absolute;
+  animation: ingredientlist 4s paused;
+  animation-fill-mode: forwards;
+  right: 0px;
+  z-index: 10;
+  top: 145px;
+}
+#zonepepper {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 13px;
+  height: 28px;
+  width: 240px;
+  line-height: 1;
+  padding-right: 10px;
+  color: #524C3E;
+  text-align: right;
+  position: absolute;
+  animation: ingredientlist 4s paused;
+  animation-fill-mode: forwards;
+  right: 0px;
+  z-index: 10;
+  top: 170px;
+}
+#zonetomato {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 13px;
+  height: 28px;
+  width: 230px;
+  line-height: 1;
+  padding-right: 10px;
+  color: #524C3E;
+  text-align: right;
+  position: absolute;
+  animation: ingredientlist 4s paused;
+  animation-fill-mode: forwards;
+  right: 0px;
+  z-index: 10;
+  top: 205px;
+}
+#zonecilantro {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 13px;
+  height: 28px;
+  width: 260px;
+  line-height: 1;
+  padding-right: 10px;
+  color: #524C3E;
+  text-align: right;
+  position: absolute;
+  animation: ingredientlist 4s paused;
+  animation-fill-mode: forwards;
+  right: 0px;
+  z-index: 10;
+  top: 240px;
+}
+#zonegarlic {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 13px;
+  height: 28px;
+  width: 260px;
+  line-height: 1;
+  padding-right: 10px;
+  color: #524C3E;
+  text-align: right;
+  position: absolute;
+  animation: ingredientlist 4s paused;
+  animation-fill-mode: forwards;
+  right: 0px;
+  z-index: 10;
+  top: 260px;
+}
 @keyframes ingredientlist {
     0% {opacity: 0; font-size: 9px; }
     100% {opacity: none; font-size: 13px; }

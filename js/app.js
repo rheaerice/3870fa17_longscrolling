@@ -22,6 +22,12 @@ var finish = document.getElementById("finish")
 
 var zoneavocado = document.getElementById("zoneavocado")
 var zonelime = document.getElementById("zonelime")
+var zonespices = document.getElementById("zonespices")
+var zoneonion = document.getElementById("zoneonion")
+var zonepepper = document.getElementById("zonepepper")
+var zonetomato = document.getElementById("zonetomato")
+var zonecilantro = document.getElementById("zonecilantro")
+var zonegarlic = document.getElementById("zonegarlic")
 
 
 
@@ -47,25 +53,38 @@ bowl.style.top=200 + y + "px";
 /*lime bowl*/
   if (y>1700)
     {bowl.src ="http://www.quiirk.co.uk/wp-content/uploads/2014/07/duck-egg-blue-bowl-3-limited-edition-ceramics.png";
+    zonespices.style.animation="ingredientlist 4s running";
+
   }
 
 /*spices bowl*/
   if (y>2500)
     {bowl.src ="https://d1doqjmisr497k.cloudfront.net/-/media/mccormickforchefs2017/home/spice-story-section/2000/old-bay/spice-bowl-oldbay.ashx?vd=20170920T183850Z&hash=08DC67E0C932B6AFC05506F3B42DF4EBF9DC18A4";
-    zonespices.style.animation="ingredientlist 4s running";
+    zoneonion.style.animation="ingredientlist 4s running";
+
   }
 /*onion bowl */
 if (y>3700)
-  {bowl.src ="https://holesomebagels.com/media/catalog/product/cache/2/thumbnail/600x600/9df78eab33525d08d6e5fb8d27136e95/g/r/greek-salad_1_1_2.png"}
+  {bowl.src ="https://holesomebagels.com/media/catalog/product/cache/2/thumbnail/600x600/9df78eab33525d08d6e5fb8d27136e95/g/r/greek-salad_1_1_2.png";
+  zonepepper.style.animation="ingredientlist 4s running";
+}
 /*pepper bowl*/
 if (y>4600)
-  {bowl.src ="https://thumb1.shutterstock.com/display_pic_with_logo/154264/250127080/stock-photo-sliced-jalapeno-peppers-in-bowl-250127080.jpg"}
+  {bowl.src ="https://thumb1.shutterstock.com/display_pic_with_logo/154264/250127080/stock-photo-sliced-jalapeno-peppers-in-bowl-250127080.jpg";
+  zonetomato.style.animation="ingredientlist 4s running";
+}
 /*tomatoebowl */
 if (y>5800)
-  {bowl.src ="https://www.anchorvans.co.uk/wordpress/wp-content/uploads/2014/06/ketchup-bowl.jpg"}
+  {bowl.src ="https://www.anchorvans.co.uk/wordpress/wp-content/uploads/2014/06/ketchup-bowl.jpg";
+  zonecilantro.style.animation="ingredientlist 4s running";
+
+}
 /*cilantrobowl*/
 if (y>6800)
-  {bowl.src ="https://3.bp.blogspot.com/-ailNzze5_iM/Ti2GwOR5JjI/AAAAAAAABI8/5elVX8p2bb4/s640/cilantro.png"}
+  {bowl.src ="https://3.bp.blogspot.com/-ailNzze5_iM/Ti2GwOR5JjI/AAAAAAAABI8/5elVX8p2bb4/s640/cilantro.png"
+  zonegarlic.style.animation="ingredientlist 4s running";
+
+}
 /*garlicbowl*/
 if (y>7800)
   {bowl.src ="https://res.cloudinary.com/hellofresh/image/upload/dpr_auto,f_auto,fl_lossy,q_80,w_640/v1/hellofresh_s3/image/554affd44dab71c8058b456b.png"}
@@ -96,28 +115,34 @@ zoneavocado.style.top= 50 + y;
 
 /*lime*/
 lime.style.top=1700+ y * 0.2 + "px";
-zonelime.style.top= 90 + y;
+zonelime.style.top= 83 + y;
 
 /*spices*/
 salt.style.top=2100 + y* 0.3 +"px";
 cumin.style.top=2000 + y * 0.35 + "px";
 cayenne.style.top=2000 + y * 0.4  + "px";
+zonespices.style.top= 110 + y;
 
 /*onion*/
 onion.style.top=3300+ y * 0.2 + "px";
+zoneonion.style.top= 145 + y;
 
 /*pepper*/
 pepper.style.top=4000+ y * 0.2 + "px";
+zonepepper.style.top= 170 + y;
 
 /*tomatoes*/
 onetomato.style.top=4700+ y * 0.2 + "px";
 twotomato.style.top=4700+ y * 0.25 + "px";
+zonetomato.style.top= 205 + y;
 
 /*cilantro */
 cilantro.style.top=5100+ y * 0.3 + "px";
+zonecilantro.style.top= 240 + y;
 
 /*garlic*/
 garlic.style.top=6000+ y * 0.27 + "px";
+zonegarlic.style.top= 260 + y;
 
 
 
