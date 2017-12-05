@@ -32,7 +32,7 @@ h1 {
 height: 28px;
 width: 190px;
 position: absolute;
-top: 410px;
+top: 200px;
 left: 0px;
 z-index: 10;
 text-decoration: none;
@@ -40,7 +40,7 @@ text-indent: 30px;
 padding-top: 11px;
 text-align: center;
 font-family: 'Varela Round', sans-serif;
-color: #FFEFC3;
+color: #44B432;
 font-size: 20px;
 }
 
@@ -49,31 +49,70 @@ font-size: 20px;
 height: 28px;
 width: 190px;
 position: absolute;
-top: 410px;
+top: 200px;
 right: 0px;
 z-index: 10;
 text-decoration: none;
 text-indent: 30px;
 padding-top: 11px;
 font-family: 'Varela Round', sans-serif;
-color: #FFEFC3;
+color: #524C3E;
 font-size: 20px;
 }
 #prep h2 {
   border-radius: 0px 5px 5px 0px;
+  color: #44B432;
 }
 #ingredients h2 {
   border-radius: 5px 0px 0px 5px;
+  color: #44B432;
 }
 h2 {
   font-family: 'Varela Round', sans-serif;
-  color: #FFEFC3;
+  color: #44B432;
   font-size: 20px;
   background-color: #524C3E;
   z-index: 10;
 }
+strong {
+  text-align: left;
+}
+#zoneavocado {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 13px;
+  height: 28px;
+  width: 190px;
+  padding-right: 10px;
+  color: #524C3E;
+  text-align: right;
+  position: absolute;
+  animation: ingredientlist 4s paused;
+  animation-fill-mode: forwards;
+  right: 0px;
+  z-index: 10;
+  top: 50px;
+}
+#zonelime {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 13px;
+  height: 28px;
+  width: 190px;
+  padding-right: 10px;
+  color: #524C3E;
+  text-align: right;
+  position: absolute;
+  animation: ingredientlist 4s paused;
+  animation-fill-mode: forwards;
+  right: 0px;
+  z-index: 10;
+  top: 90px;
+}
 
-nav {
+@keyframes ingredientlist {
+    0% {opacity: 0; font-size: 9px; }
+    100% {opacity: none; font-size: 13px; }
+}
+/*nav {
     position: fixed;
     bottom: 0px;
     right: 50px;
@@ -99,7 +138,7 @@ nav ul li a {
     right: 40px;
     color: #F26A47;
     text-decoration: none
-}
+}*/
 
 
 #bowl {
@@ -121,6 +160,8 @@ z-index: 10;
   height: 200px;
   width: 200px;
   z-index: 12;
+  animation: ingredientlist 4s;
+  animation-fill-mode: forwards;
 }
 #twoavocado {
     border: 2px solid red;
@@ -141,14 +182,7 @@ z-index: 10;
     width: 200px;
     z-index: 12;
   }
-#zoneAvocado{
-  animation: zoneAvocado 12s infinite;
-  animation-delay: 5s;
-  z-index: 12;
-}
-@keyframes zoneAvocado {
-  50% {opacity: 1.0;}
-}
+
 
 /*zonelime*/
 
@@ -261,11 +295,13 @@ z-index: 10;
   left: 140px;
   position: absolute;
   margin: auto;
+  z-index: 11;
 }
 h3 {
   font-family: 'Caveat Brush', cursive;
   text-align: center;
   font-size: 40px;
+
 }
 
 h4 {
