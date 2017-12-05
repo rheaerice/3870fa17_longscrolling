@@ -42,61 +42,61 @@ bowl.style.top=200 + y + "px";
 
 /*avocado bowl*/
   if (y<1100)
-    {bowl.src ="http://www.churchill1795.com/sites/default/files/imagecache/product_page_main_image/products/second/APR%20AP8%201_2.png";
+    {bowl.src ="images/bowl-01.png";
     zoneavocado.style.animation="ingredientlist 4s running";
-    
+
   }
 
   if (y>1100)
-    {bowl.src ="http://www.carvasos.com/sites/default/files/avocado%20mash.png";
+    {bowl.src ="images/bowl-02.png";
     zonelime.style.animation="ingredientlist 4s running";
-    time.span="3 minutes";
+    // oneavocado.style.animation="appear 4s running";
 
   }
 
 
 /*lime bowl*/
   if (y>1700)
-    {bowl.src ="http://www.quiirk.co.uk/wp-content/uploads/2014/07/duck-egg-blue-bowl-3-limited-edition-ceramics.png";
+    {bowl.src ="images/bowl-03.png";
     zonespices.style.animation="ingredientlist 4s running";
 
   }
 
 /*spices bowl*/
   if (y>2500)
-    {bowl.src ="https://d1doqjmisr497k.cloudfront.net/-/media/mccormickforchefs2017/home/spice-story-section/2000/old-bay/spice-bowl-oldbay.ashx?vd=20170920T183850Z&hash=08DC67E0C932B6AFC05506F3B42DF4EBF9DC18A4";
+    {bowl.src ="images/bowl-04.png";
     zoneonion.style.animation="ingredientlist 4s running";
 
   }
 /*onion bowl */
 if (y>3700)
-  {bowl.src ="https://holesomebagels.com/media/catalog/product/cache/2/thumbnail/600x600/9df78eab33525d08d6e5fb8d27136e95/g/r/greek-salad_1_1_2.png";
+  {bowl.src ="images/bowl-05.png";
   zonepepper.style.animation="ingredientlist 4s running";
 }
 /*pepper bowl*/
 if (y>4600)
-  {bowl.src ="https://thumb1.shutterstock.com/display_pic_with_logo/154264/250127080/stock-photo-sliced-jalapeno-peppers-in-bowl-250127080.jpg";
+  {bowl.src ="images/bowl-06.png";
   zonetomato.style.animation="ingredientlist 4s running";
 }
 /*tomatoebowl */
 if (y>5800)
-  {bowl.src ="https://www.anchorvans.co.uk/wordpress/wp-content/uploads/2014/06/ketchup-bowl.jpg";
+  {bowl.src ="images/bowl-07.png";
   zonecilantro.style.animation="ingredientlist 4s running";
 
 }
 /*cilantrobowl*/
 if (y>6800)
-  {bowl.src ="https://3.bp.blogspot.com/-ailNzze5_iM/Ti2GwOR5JjI/AAAAAAAABI8/5elVX8p2bb4/s640/cilantro.png"
+  {bowl.src ="images/bowl-08.png"
   zonegarlic.style.animation="ingredientlist 4s running";
 
 }
 /*garlicbowl*/
 if (y>7800)
-  {bowl.src ="https://res.cloudinary.com/hellofresh/image/upload/dpr_auto,f_auto,fl_lossy,q_80,w_640/v1/hellofresh_s3/image/554affd44dab71c8058b456b.png"}
+  {bowl.src ="images/bowl-09.png"}
 
 /*endbowl*/
 if (y>8800)
-  {bowl.src ="https://i.pinimg.com/originals/96/70/5f/96705f9c6d894ec6e929c6aee51e98cf.png"}
+  {bowl.src ="images/bowl-10.png"}
 
 
  /*side bars*/

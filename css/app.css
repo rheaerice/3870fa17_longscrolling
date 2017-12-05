@@ -260,18 +260,18 @@ z-index: 10;
 
 /*zone-avocado*/
 #oneavocado {
-  border: 2px solid red;
+
   position: absolute;
   top: 700px;
   left: 500px;
   height: 200px;
   width: 200px;
   z-index: 12;
-  animation: ingredientlist 4s;
-  animation-fill-mode: forwards;
+  /*animation: appear 4s paused;
+  animation-fill-mode: forwards;*/
 }
 #twoavocado {
-    border: 2px solid red;
+
     position: absolute;
     top: 700px;
     right: 500px;
@@ -281,7 +281,7 @@ z-index: 10;
   /*transform: translate(700px, 0);*/
 }
 #threeavocado {
-    border: 2px solid red;
+
     position: absolute;
     top: 700px;
     right: 300px;
@@ -289,12 +289,15 @@ z-index: 10;
     width: 200px;
     z-index: 12;
   }
-
+/*@keyframes appear {
+  0% {opacity: 0;  }
+  100% {opacity: none; }
+}*/
 
 /*zonelime*/
 
 #lime {
-  border: 2px solid green;
+
   position: absolute;
   top: 1700px;
   left: 500px;
@@ -305,7 +308,7 @@ z-index: 10;
 
 /*zonespices*/
 #salt {
-  border: 2px solid brown;
+
   position: absolute;
   top: 2100px;
   right: 500px;
@@ -314,7 +317,7 @@ z-index: 10;
   z-index: 12;
 }
 #cumin {
-  border: 2px solid brown;
+
   position: absolute;
   top: 2000px;
   left: 500px;
@@ -323,7 +326,7 @@ z-index: 10;
   z-index: 12;
 }
 #cayenne {
-  border: 2px solid brown;
+
   position: absolute;
   top: 2000px;
   right: 300px;
@@ -334,7 +337,7 @@ z-index: 10;
 
 /*zoneonion*/
 #onion {
-  border: 2px solid orange;
+
   position: absolute;
   top: 3300px;
   left: 500px;
@@ -345,7 +348,7 @@ z-index: 10;
 
 /*zonepepper*/
 #pepper {
-  border: 2px solid blue;
+
   position: absolute;
   top: 4000px;
   right: 500px;
@@ -356,7 +359,7 @@ z-index: 10;
 
 /*zonetomato*/
 #onetomato {
-  border: 2px solid pink;
+
   position: absolute;
   top: 4700px;
   right: 600px;
@@ -365,7 +368,7 @@ z-index: 10;
   z-index: 12;
 }
 #twotomato {
-  border: 2px solid pink;
+  
   position: absolute;
   top: 4700px;
   left: 550px;
@@ -376,7 +379,7 @@ z-index: 10;
 
 /*zonecilantro*/
 #cilantro {
-  border: 2px solid green;
+
   position: absolute;
   top: 5100px;
   left: 350px;
@@ -387,7 +390,7 @@ z-index: 10;
 
 /*zonegarlic*/
 #garlic {
-  border: 2px solid orange;
+
   position: absolute;
   top: 6000px;
   right: 450px;
