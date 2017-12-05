@@ -4,6 +4,7 @@
 var canvas = document.getElementById("canvas");
 var bowl = document.getElementById("bowl");
 var prep = document.getElementById("prep");
+var time = document.getElementById("time");
 var ingredients = document.getElementById("ingredients");
 var avocado = document.getElementById("oneavocado");
 var avocado = document.getElementById("twoavocado");
@@ -50,6 +51,8 @@ bowl.style.top=200 + y + "px";
   if (y>1100)
     {bowl.src ="images/bowl-02.png";
     zonelime.style.animation="ingredientlist 4s running";
+    time.style.animation="time 3s infinite";
+
     // oneavocado.style.animation="appear 4s running";
 
   }
@@ -114,9 +117,6 @@ threeavocado.style.top=700 + y * 0.5  + "px";
 zoneavocado.style.top= 50 + y;
 
 
-//  if (y > 1000)
-// {avocado.style.transform="translate(0,0)";}
-// if (y<1000){avocado.src="http://www.pngpix.com/wp-content/uploads/2016/03/Avocado-PNG-Image-500x417.png";}
 
 /*lime*/
 lime.style.top=1700+ y * 0.2 + "px";
